@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+   
+</head>
+<body>
+
+    
+    
+    <div class="calculator" name="calculator">
+        
+
+
+        <div class="display" id="display">
+
+
+
+        </div>
+   
+    <div class="keys" id="keys">
+        <section>
+            <button class="operator" onclick="clear()">C</button>
+<h3>JavaScript Calculator</h3>
+        </section>
+<button class="number" onclick="btn('7')" >7</button>
+<button class="number" onclick="btn('8')">8</button>
+<button class="number" onclick="btn('9')">9</button>
+<button class="operator" onclick="btn('+')"><i class="fas fa-plus"></i></button>
+
+<button class="number" onclick="btn('4')">4</button>
+<button class="number" onclick="btn('5')">5</button>
+<button class="number" onclick="btn('6')">6</button>
+<button class="operator" onclick="btn('-')"><i class="fas fa-minus"></i></button>
+<button class="number" value="1" onclick="btn('7')">1</button>
+<button class="number" onclick="btn('2')">2</button>
+<button class="number" onclick="btn('3')">3</button>
+<button class="operator" onclick="btn('*')" ><i class="fas fa-times"></i></button>
+<button class="number" onclick="btn('0')">0</button>
+<button class="number" onclick="btn('.')">.</button>
+<button class="number" onclick="btn('/')"><i class="fas fa-divide"></i></button>
+<button class="operator" id="equal"value="=" onclick="equal()"><i class="fas fa-equals"></i></button>
+
+
+
+
+    </div>
+</div>
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
